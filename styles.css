@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+header{
+  height: 100px;
+  width: 100%;
+  background: green;
+  color: white;
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+div.body-1{
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 100px;
+}
+div.body-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.container-3 {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.card {
+  padding: 16px;
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+button{
+  border: none;
+  border-radius: 4px;
+  font-size: large;
+  color: white;
+  background: greenyellow;
+}
+img{
+  width: auto;
+  height: auto;
+  max-width: 234px;
+}
+div.quote-box{
+  display: flex; 
+  flex-direction: column; 
+  height: 600px;
+  width: 100%;
+  background-color: darkcyan;
+  color: greenyellow;
+}
+div.quote{
+  font-size: 100px;
+}
+div.quote-owner{
+  font-size: 40px;
+  font-style: italic;
+  
+}
+div.its-time{
+  display: flex; 
+  flex-direction: column; 
+  height: 200px;
+  width: auto;
+  background-color: wheat;
+  justify-content: center;
+  align-items: center;
+}
+div.donate-now{
+  width: auto;
+  min-width: 1000px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  height: 100px;
+  width: 100%;
+  background: green;
+  color: white;
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+}
